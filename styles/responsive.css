@@ -1,0 +1,51 @@
+@media screen and (max-width: 576px) {
+    .navbar , 
+    .nav-links{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    .nav-item , 
+    .banner-content , 
+    .section-content{
+        margin: 0 auto;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;  
+    }
+    .btn{
+        margin-right: 30px;
+    }
+    .habit-image{
+        grid-template-columns: repeat(1, 4fr);
+        margin: 40px;
+        
+    }  
+    .img-1 , 
+    .img-2 , 
+    .img-3 , 
+    .img-4{
+        margin: 10px;
+        justify-self: center;
+    } 
+    .run-easy-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .run-easy-photo , 
+    .run-easy-content{
+        width: 70%;
+    } 
+    /* bmi calculator section */
+    .bmi-container{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bmi-calc{
+        padding: 10px;
+        width: 70%;
+    }
+}
